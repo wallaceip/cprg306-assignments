@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Page() {
   return (
     <main>
-      <h1 className="text-1xl font-bold text-amber-500">CPRG 306: Web Development 2 - Assignments </h1>
+      <h1 className="text-2xl font-bold text-amber-500">CPRG 306: Web Development 2 - Assignments </h1>
       <Link href="/week-2" className="hover:text-amber-400">Week 2 Assignment</Link>
     </main>
   );
