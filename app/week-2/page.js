@@ -1,10 +1,10 @@
-import Link from "next/link";
+import StudentInfo from "./student-info";
 
 export default function Page() {
   return (
     <main>
-      <h1 className="text-3xl font-bold text-blue-600">Wallace Ip</h1>
-      <Link href="https://github.com/wallaceip/cprg306-assignments" className="text-underline hover:text-blue-400">GitHub Repo</Link>
+      <h1 className="text-1xl text-amber-500">Shopping List</h1>
+      <StudentInfo />
     </main>
   );
 }
